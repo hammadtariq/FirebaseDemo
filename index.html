@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.js"></script>
+    <script src="index.js"></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="homeController as hc">
+    <input type="text" ng-model="hc.email"/>
+    <input type="password" ng-model="hc.password"/>
+    <button ng-click="hc.func()">submit object</button>
+    <button ng-click="hc.addMessage()">submit Array</button>
+    <ul>
+        <li ng-repeat="a in hc.messages">{{a.$value | json}}</li>
+    </ul>
+</div>
+</body>
+</html>
