@@ -1,6 +1,4 @@
-/**
- * Created by 192.168.3.49 on 7/10/2015.
- */
+
 var app = angular.module('myApp',['firebase']);
 
 app.controller('homeController',function($firebaseObject,$firebaseArray){
