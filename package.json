@@ -1,0 +1,21 @@
+{
+  "name": "angularfire",
+  "description": "angular fire demo of $firebase array",
+  "version": "0.0.0",
+  "author": "Firebase <support@firebase.com> (https://www.firebase.com/)",
+  "homepage": "https://github.com/firebase/angularfire",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hammadtariq/FirebaseDemo/"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "firebase",
+    "realtime"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "angular": "1.3.x || 1.4.x",
+    "firebase": "2.x.x"
+  },
